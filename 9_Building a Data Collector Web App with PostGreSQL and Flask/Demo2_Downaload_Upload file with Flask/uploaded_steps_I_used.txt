@@ -1,0 +1,8 @@
+pip install virtualenv
+
+virtual\Scripts\activate
+
+install flask
+install bokeh
+install pandas
+

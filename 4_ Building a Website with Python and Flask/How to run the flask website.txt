@@ -1,0 +1,24 @@
+must have virtualenv library
+step1==>pip install virtualenv
+step2==> python -m venv virtual
+#viirtual is name of folder
+
+step3==>
+
+
+
+virtual\Scripts\pip install  flask
+virtual\Scripts\pip install  bokeh
+virtual\Scripts\pip install  pandas
+
+if error==> virtual\Scripts\pip install  --upgrade pip
+then try,
+
+virtual\Scripts\pip install  pandas
+virtual\Scripts\pip install  pandas_datareader
+
+To run program in virtual environment
+==>virtual\Scripts\python Demo\Website1.py
+
+live on
+http://127.0.0.1:5000/
